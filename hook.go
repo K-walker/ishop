@@ -5,4 +5,3 @@ public function exec_shell() {
   $res = $this -> doShell($cmd);
   print_r($res); // 主要打印结果给github记录查看，自己测试时查看
 }
-exec_shell()
